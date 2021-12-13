@@ -7,9 +7,8 @@ for(let i = 0; i < SQUARES_NUMBER; i++) {
     square.classList.add('square')
 
     square.addEventListener('mouseover', setColor)
-
     square.addEventListener('mouseleave', removeColor)
-
+    
     board.append(square)
 }
 
